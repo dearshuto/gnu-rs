@@ -1,0 +1,6 @@
+[workspace]
+resolver = "2"
+members = ["echo-rs"]
+
+[workspace.dependencies]
+clap = { version = "4.5.0", features = ["derive"] }
