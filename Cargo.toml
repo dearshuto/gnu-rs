@@ -1,6 +1,6 @@
 [workspace]
 resolver = "2"
-members = ["cat-rs", "echo-rs", "head-rs"]
+members = ["cat-rs", "echo-rs", "head-rs", "wc-rs"]
 
 [workspace.dependencies]
 clap = { version = "4.5.0", features = ["derive"] }
