@@ -1,7 +1,9 @@
 [workspace]
 resolver = "2"
-members = ["cat-rs", "echo-rs"]
+members = ["cat-rs", "echo-rs", "ls-rs"]
 
 [workspace.dependencies]
+chrono = "0.4"
 clap = { version = "4.5.0", features = ["derive"] }
 assert_cmd = "1"
+tabular = "0.2.0"

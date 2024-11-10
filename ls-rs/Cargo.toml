@@ -1,0 +1,9 @@
+[package]
+name = "ls-rs"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+chrono = { workspace = true }
+clap = { workspace = true }
+tabular = { workspace = true }
